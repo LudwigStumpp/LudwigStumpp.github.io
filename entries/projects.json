@@ -1,0 +1,15 @@
+[{
+    "imgUrl": "media/knowledge.jpg",
+    "backgroundPosition": "center",
+    "name": "Medium Article: Free Knowledge Tools",
+    "text": "Planning to write an article about my favourite sources of free knowledge. Will be published on my Medium page.",
+    "link": ""
+  },
+  {
+    "imgUrl": "media/ai.jpg",
+    "backgroundPosition": "center",
+    "name": "TicTacToe Reinforcement Learning",
+    "text": "Currently programming a modular Python Tic Tac Toe environment, to then train an Agent using Reinforcement Learning.",
+    "link": ""
+  }
+]
