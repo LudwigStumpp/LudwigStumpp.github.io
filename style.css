@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", "sans-serif";
+  color: rgb(84, 84, 84);
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.75);
+  font-size: 22px;
+}
+
+h1 {
+  letter-spacing: -0.175rem;
+  font-size: 2.75em;
+  line-height: 1.25;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+h5 {
+  letter-spacing: -0.075rem;
+  font-size: 1.25em;
+  line-height: 1.75;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+p {
+  letter-spacing: -0.025rem;
+  font-size: 1em;
+  line-height: 1.875;
+  font-weight: 300;
+}
+
+.fa {
+  margin-right: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s ease-in;
+}
+
+.fa:hover {
+  transition: 0.2s ease-out;
+}
+
+.fa:hover#twitter {
+  color: rgb(29, 161, 242);
+}
+
+.fa:hover#linkedin {
+  color: #0073b1
+}
+
+.fa:hover#medium {
+  color: #03a87c;
+}
+
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 120px;
+  max-width: 1600px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+#description {
+  width: 30%;
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+
+#links {
+  margin-top: 25px;
+}
+
+#projects {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+
+.project {
+  margin: 0 10px;
+  width: 300px;
+  height: 300px;
+  border: 1px black solid;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1060px) {
+  body {
+    font-size: 16px;
+  }
+
+  .fa {
+    font-size: 24px;
+    width: 24px;
+  }
+
+  #wrapper {
+    margin-top: 50px;
+  }
+
+  #description {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  #projects {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  #wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #project {
+    margin: 0;
+  }
+
+  .project {
+    display: inline-block;
+    height: 0;
+    padding-bottom: 45%;
+    width: 45%;
+    margin: 0;
+    margin-bottom: 10%;
+  }
+}
