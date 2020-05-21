@@ -16,7 +16,7 @@ $(document).ready(function () {
       const project = `<div class="project" style='background-image:url(${imgUrl}); background-position:${backgroundPosition}' name='${name}' text='${text}' link='${link}'>
           <div class="info">
             <div class="title">${name}</div>
-            <div class="button modal-link">Mehr</div>
+            <div class="button modal-link">More</div>
           </div>
         </div>
       </div>`;
