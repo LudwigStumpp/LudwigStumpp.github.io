@@ -43,6 +43,10 @@ p {
   transition: 0.2s ease-in;
 }
 
+.fa:last-of-type {
+  margin-right: 0;
+}
+
 .fa:hover {
   transition: 0.2s ease-out;
 }
@@ -99,6 +103,11 @@ p {
   background-size: cover;
 }
 
+.project:hover .info {
+  visibility: visible;
+  opacity: 1;
+}
+
 .project .image-wrapper {
   height: 100%;
   width: 100%;
@@ -115,15 +124,12 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
+  visibility: hidden;
 }
 
 .project .info .title {
   width: 100%;
   text-align: center;
-}
-
-.project .info:hover {
-  opacity: 1;
 }
 
 .project .info .modal-link {
@@ -211,9 +217,11 @@ p {
 
   .project {
     width: 24vw;
+    height: 24vw;
   }
 
-  .project .info:hover {
+  .project:hover .info {
+    visibility: hidden;
     opacity: 0;
   }
 }
@@ -225,6 +233,10 @@ p {
 
   h1 {
     font-size: 2em;
+  }
+
+  #description {
+    margin-bottom: 30px;
   }
 
   #wrapper {

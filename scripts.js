@@ -1,7 +1,17 @@
 $(document).ready(function () {
   const projects = $('#projects')
-  const modal = $(".modal");
-  const span = $(".close");
+  const modal = $('.modal');
+  const span = $('.close');
+  const wrapper = $('#wrapper')
+
+  const checkSize = () => {
+    if (wrapper.css('margin-top') == '50px') {
+      // small device
+      projects.find('.project').addClass('modal-link')
+    } else {
+      projects.find('.project').removeClass('modal-link')
+    }
+  }
 
   $.getJSON('entries/projects.json', (data) => {
     $.each(data, function (key, val) {
@@ -23,11 +33,11 @@ $(document).ready(function () {
 
       projects.append(project);
     });
+    checkSize();
   });
 
   projects.on('click', '.modal-link', function () {
-    const button = $(this);
-    const project = button.parents('.project');
+    const project = $(this)[0].classList[0] == 'project' ? $(this) : $(this).parents('.project')
     const name = project.attr('name');
     const text = project.attr('text');
     const link = project.attr('link');
@@ -47,4 +57,6 @@ $(document).ready(function () {
       modal.css("display", "none")
     }
   })
+
+  $(window).resize(checkSize);
 });
