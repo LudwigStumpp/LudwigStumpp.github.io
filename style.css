@@ -143,6 +143,7 @@ a[disabled="disabled"] {
 
 .button {
   border: 1px rgb(84, 84, 84) solid;
+  cursor: pointer;
   padding: 4px;
   padding-left: 20px;
   padding-right: 20px;
