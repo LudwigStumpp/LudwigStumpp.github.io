@@ -168,14 +168,14 @@ a {
 .modal-content {
   background-color: #fefefe;
   margin: 15% auto;
-  padding: 20px;
+  padding: 35px 40px;
   border: 1px solid #888;
   width: 40%;
   min-width: 300px;
 }
 
 .modal-content p {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .close {
@@ -226,6 +226,10 @@ a {
   .project:hover .info {
     visibility: hidden;
     opacity: 0;
+  }
+
+  .modal-content {
+    padding: 25px 30px;
   }
 }
 
