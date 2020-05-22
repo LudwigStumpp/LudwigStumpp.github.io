@@ -1,7 +1,7 @@
 # LudwigStumpp.github.io
 
 This is my first personal website. Built the first version in a 4 hours evening programming session.
-Visit [ludwigstumpp.github.io](ludwigstumpp.github.io)
+Visit [https://ludwigstumpp.github.io](https://ludwigstumpp.github.io)
 
 ## Gallery
 
