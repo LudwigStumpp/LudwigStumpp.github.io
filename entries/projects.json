@@ -1,6 +1,15 @@
 [{
+    "imgUrl": "media/community.jpg",
+    "backgroundPosition": "center",
+    "imgCopyright": "Photo by Helena Lopes on Unsplash",
+    "name": "Slack Group: Free Tech-Writer",
+    "text": "Currently planning a Slack-Group for people willing to inspire others with technology and mind-changing ideas. The Slack-group would serve as a place for ideas, help and motivation. If you would be interested in joining, feel free to contact me on Twitter.",
+    "link": ""
+  },
+  {
     "imgUrl": "media/knowledge.jpg",
     "backgroundPosition": "center",
+    "imgCopyright": "Photo by Jaredd Craig on Unsplash",
     "name": "Medium Article: Free Knowledge Tools",
     "text": "Planning to write an article about my favourite sources of free knowledge. Will be published on my Medium page.",
     "link": ""
@@ -8,8 +17,17 @@
   {
     "imgUrl": "media/ai.jpg",
     "backgroundPosition": "center",
+    "imgCopyright": "Photo by mahdis mousavi on Unsplash",
     "name": "TicTacToe Reinforcement Learning",
     "text": "Currently programming a modular Python Tic Tac Toe environment, to then train an Agent using Reinforcement Learning.",
     "link": ""
+  },
+  {
+    "imgUrl": "media/email.jpg",
+    "backgroundPosition": "center",
+    "imgCopyright": "Photo by Kon Karampelas on Unsplash",
+    "name": "Tutorial: E-Mail Signature",
+    "text": "Tutorial on how to build an email signature from scratch, that works with every email client. Only HTML and CSS is used, no external hosting needed!",
+    "link": "https://medium.com/@ludwig.stumpp/how-to-build-an-email-signature-from-scratch-34373f9c4dcd"
   }
 ]

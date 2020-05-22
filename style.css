@@ -167,7 +167,11 @@ a {
 
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   padding: 35px 40px 40px 40px;
   border: 1px solid #888;
   width: 40%;
@@ -176,6 +180,12 @@ a {
 
 .modal-content p {
   margin-bottom: 25px;
+}
+
+.modal-content .img-copyright {
+  font-weight: 300;
+  letter-spacing: -0.025rem;
+  font-size: 0.7em;
 }
 
 .close {
