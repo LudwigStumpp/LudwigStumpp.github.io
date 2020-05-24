@@ -29,5 +29,13 @@
     "name": "Tutorial: E-Mail Signature",
     "text": "Tutorial on how to build an email signature from scratch, that works with every email client. Only HTML and CSS is used, no external hosting needed!",
     "link": "https://medium.com/@ludwig.stumpp/how-to-build-an-email-signature-from-scratch-34373f9c4dcd"
+  },
+  {
+    "imgUrl": "media/traffic.jpg",
+    "backgroundPosition": "center",
+    "imgCopyright": "Photo by Denys Nevozhai on Unsplash",
+    "name": "List: Whitepapers Autonomous Driving",
+    "text": "Collection of Whitepapers from the current leaders in the industry about the challenges and choices of Autonomous Driving.",
+    "link": "https://www.linkedin.com/posts/activity-6665987806428569600-7nt3"
   }
 ]
