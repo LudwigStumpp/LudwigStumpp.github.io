@@ -37,5 +37,14 @@
     "name": "List: Whitepapers Autonomous Driving",
     "text": "Collection of Whitepapers from the current leaders in the industry about the challenges and choices of Autonomous Driving.",
     "link": "https://www.linkedin.com/posts/activity-6665987806428569600-7nt3"
+  },
+  {
+    "imgUrl": "media/gym.jpg",
+    "backgroundPosition": "center",
+    "imgCopyright": "Photo by Victor Freitas on Unsplash",
+    "name": "OpenAI Gym Starter",
+    "text": "A boilerplate repository to help you get started with creating a new OpenAI gym environment quickly. Was created in reference to the official documentation from OpenAI.",
+    "link": "https://github.com/LudwigStumpp/gym-starter"
   }
+
 ]
