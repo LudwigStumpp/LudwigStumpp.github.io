@@ -50,11 +50,13 @@ $(document).ready(function () {
       // no link
       modal.find('.link').attr('disabled', 'disabled');
       modal.find('.link').removeAttr('href');
-      modal.find('.link').text('Coming soon!')
+      modal.find('.link').removeAttr('rel');
+      modal.find('.link').text('Coming soon!');
     } else {
       modal.find('.link').removeAttr('disabled');
       modal.find('.link').attr('href', link);
-      modal.find('.link').text('Visit')
+      modal.find('.link').attr('rel', 'noopener');
+      modal.find('.link').text('Visit');
     }
     modal.css("display", "block");
   })
