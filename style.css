@@ -75,6 +75,10 @@ a[disabled="disabled"] {
   color: #24292e;
 }
 
+.fa:hover#heart {
+  color: #E62b1E;
+}
+
 #wrapper {
   display: flex;
   flex-wrap: wrap;
