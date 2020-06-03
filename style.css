@@ -145,6 +145,11 @@ a[disabled="disabled"] {
   text-align: center;
 }
 
+.project .info .link.button {
+  margin-left: 10px;
+}
+
+
 .button {
   border: 1px rgb(84, 84, 84) solid;
   cursor: pointer;
