@@ -24,10 +24,14 @@ $(document).ready(function () {
 
       style = 'background-image:url(${imgUrl})'
 
+      let visit = ''
+      if (link !== '') visit = `<a class="link button" href="${link}" target='_blank'>Visit</a>`
+
       const project = `<div class="project" style='background-image:url(${imgUrl}); background-position:${backgroundPosition}' imgCopyright='${imgCopyright}' name='${name}' text='${text}' link='${link}'>
           <div class="info">
             <div class="title">${name}</div>
             <div class="button modal-link">More</div>
+            ${visit}
           </div>
         </div>
       </div>`;
