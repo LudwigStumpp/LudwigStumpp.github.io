@@ -196,6 +196,7 @@ a[disabled="disabled"] {
 
 .modal-content p {
   margin-bottom: 25px;
+  text-align: justify;
 }
 
 .modal-content .img-copyright {
