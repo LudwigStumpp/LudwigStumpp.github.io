@@ -1,16 +1,8 @@
 [{
-    "imgUrl": "media/community.jpg",
-    "backgroundPosition": "center",
-    "imgCopyright": "Photo by Helena Lopes on Unsplash",
-    "name": "Slack Group: Inspiring Tech-Writers",
-    "text": "Currently planning a Slack-Group for people willing to inspire others with technology and mind-changing ideas. The Slack-group would serve as a place for ideas, help and motivation. If you would be interested in joining, feel free to contact me on Twitter.",
-    "link": "https://inspiringtech-writers.slack.com"
-  },
-  {
     "imgUrl": "media/knowledge.jpg",
     "backgroundPosition": "center",
     "imgCopyright": "Photo by Jaredd Craig on Unsplash",
-    "name": "Free Knowledge Resources on the Web",
+    "name": "Article: Free Knowledge Resources on the Web",
     "text": "Are you searching for great resources of knowledge on the internet? At best for free? During the last weeks, I have created a list with my favorite learning platforms which I love to share with you.",
     "link": "https://medium.com/@ludwig.stumpp/free-knowledge-sources-on-the-web-ad63ae30fc61"
   },
@@ -18,9 +10,33 @@
     "imgUrl": "media/ai.jpg",
     "backgroundPosition": "center",
     "imgCopyright": "Photo by mahdis mousavi on Unsplash",
-    "name": "TicTacToe Reinforcement Learning",
+    "name": "Open-Source: TicTacToe Reinforcement Learning",
     "text": "Currently programming a modular Python Tic Tac Toe environment, to then train an Agent using Reinforcement Learning.",
     "link": ""
+  },
+  {
+    "imgUrl": "media/gym.jpg",
+    "backgroundPosition": "center",
+    "imgCopyright": "Photo by Victor Freitas on Unsplash",
+    "name": "Open-Source: OpenAI Gym Starter",
+    "text": "A boilerplate repository to help you get started with creating a new OpenAI gym environment quickly. Was created in reference to the official documentation from OpenAI.",
+    "link": "https://github.com/LudwigStumpp/gym-starter"
+  },
+  {
+    "imgUrl": "media/ml5.jpg",
+    "backgroundPosition": "center right",
+    "imgCopyright": "Photo by ml5.js community",
+    "name": "Open-Source: Contributing to ml5.js",
+    "text": "ml5.js is a JavaScript library for machine learning based on Tensorflow.js. I contributed to it by discovering a bug and helping to fix it. Additionally, I programmed an interactive example for Linear Regression using a Neural Net within the browser, which is now part of the official examples.",
+    "link": "https://ml5js.org/"
+  },
+  {
+    "imgUrl": "media/community.jpg",
+    "backgroundPosition": "center",
+    "imgCopyright": "Photo by Helena Lopes on Unsplash",
+    "name": "Slack Group: Inspiring Tech-Writers",
+    "text": "Currently planning a Slack-Group for people willing to inspire others with technology and mind-changing ideas. The Slack-group would serve as a place for ideas, help and motivation. If you would be interested in joining, feel free to contact me on Twitter.",
+    "link": "https://inspiringtech-writers.slack.com"
   },
   {
     "imgUrl": "media/email.jpg",
@@ -37,14 +53,5 @@
     "name": "List: Whitepapers Autonomous Driving",
     "text": "Collection of Whitepapers from the current leaders in the industry about the challenges and choices of Autonomous Driving.",
     "link": "https://www.linkedin.com/posts/activity-6665987806428569600-7nt3"
-  },
-  {
-    "imgUrl": "media/gym.jpg",
-    "backgroundPosition": "center",
-    "imgCopyright": "Photo by Victor Freitas on Unsplash",
-    "name": "OpenAI Gym Starter",
-    "text": "A boilerplate repository to help you get started with creating a new OpenAI gym environment quickly. Was created in reference to the official documentation from OpenAI.",
-    "link": "https://github.com/LudwigStumpp/gym-starter"
   }
-
 ]
