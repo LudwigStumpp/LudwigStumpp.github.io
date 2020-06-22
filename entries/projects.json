@@ -24,7 +24,7 @@
   },
   {
     "imgUrl": "media/ml5.jpg",
-    "backgroundPosition": "center right",
+    "backgroundPosition": "center",
     "imgCopyright": "Photo by ml5.js community",
     "name": "Open-Source: Contributing to ml5.js",
     "text": "ml5.js is a JavaScript library for machine learning based on Tensorflow.js. I contributed to it by discovering a bug and helping to fix it. Additionally, I programmed an interactive example for Linear Regression using a Neural Net within the browser, which is now part of the official examples.",
