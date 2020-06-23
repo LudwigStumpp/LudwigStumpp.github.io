@@ -11,8 +11,8 @@
     "backgroundPosition": "center",
     "imgCopyright": "Photo by mahdis mousavi on Unsplash",
     "name": "Open-Source: TicTacToe Reinforcement Learning",
-    "text": "Currently programming a modular Python Tic Tac Toe environment, to then train an Agent using Reinforcement Learning.",
-    "link": ""
+    "text": "Tic-Tac-Toe environment for OpenAI Gym to train an intelligent agent using Reinforcement Learning. I also added a demo using Q-Learning.",
+    "link": "https://github.com/LudwigStumpp/gym-tic-tac-toe"
   },
   {
     "imgUrl": "media/gym.jpg",
