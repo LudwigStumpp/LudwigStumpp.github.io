@@ -53,5 +53,13 @@
     "name": "List: Whitepapers Autonomous Driving",
     "text": "Collection of Whitepapers from the current leaders in the industry about the challenges and choices of Autonomous Driving.",
     "link": "https://www.linkedin.com/posts/activity-6665987806428569600-7nt3"
+  },
+  {
+    "imgUrl": "media/icons.jpg",
+    "backgroundPosition": "center",
+    "imgCopyright": "Photo by Harpal Singh on Unsplash",
+    "name": "Open Source: Social Icon Builder",
+    "text": "A tool for creating social icons to be used on the web.",
+    "link": "https://social-icon-builder.herokuapp.com/"
   }
 ]
